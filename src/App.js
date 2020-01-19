@@ -1,20 +1,13 @@
 import React from 'react';
-import download from './download.jpg';
-import './App.css';
-import Navigation from './components/Navigation';
+import { HashRouter, Route } from 'react-router-dom';
+import Home from './components/Home';
 
-function App() {
+const App = () => {
   return (
-    <div className="app">
-      <img src={download} className="appLogo" alt="logo" />
-      <header className="appHeader">
-        <div className="headerText">PHS Hackclub</div>
-      </header>
-      <div>
-        <Navigation />
-      </div>
-    </div>
-  );
+    <HashRouter>
+      <Route path="/" exact={true} component={Home} />
+    </HashRouter>
+  )
 }
 
 export default App;
