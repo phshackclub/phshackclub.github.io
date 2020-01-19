@@ -1,12 +1,12 @@
 import React from 'react';
 import SiteLayout from '../SiteLayout';
 
-const Home = () => {
+const About = () => {
     return (
         <SiteLayout>
-            Home
+            About page
         </SiteLayout>
     )
 }
 
-export default Home;
+export default About;
