@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { Link } from 'react-router-dom';
 import 'antd/dist/antd.css';
-import { Layout, Menu, Breadcrumb, Icon } from 'antd';
+import { Layout, Menu, Breadcrumb, Icon, Dropdown, Button } from 'antd';
 import './SiteLayout.css';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -22,6 +22,26 @@ class SiteLayout extends Component {
 
     const { location } = this.props;
 
+    const menu = (
+      <Menu>
+        <Menu.Item>
+          <a target="_blank" rel="noopener noreferrer" href="https://phs.psdschools.org/">
+            School Website
+          </a>
+        </Menu.Item>
+        <Menu.Item>
+          <a target="_blank" rel="noopener noreferrer" href="https://pvue.psdschools.org/PXP2_Login_Student.aspx?regenerateSessionId=True">
+            Student VUE
+          </a>
+        </Menu.Item>
+        <Menu.Item>
+          <a target="_blank" rel="noopener noreferrer" href="https://classroom.google.com/">
+            Google Classroom
+          </a>
+        </Menu.Item>
+      </Menu>
+    );
+    
     return (
       <Layout style={{ minHeight: '100vh' }}>
         <Sider collapsible collapsed={this.state.collapsed} onCollapse={this.onCollapse}>
@@ -54,7 +74,11 @@ class SiteLayout extends Component {
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }} />
+          <Header style={{ background: '#fff', padding: 0 }}>
+            <Dropdown overlay={menu} placement="bottomRight">
+              <Button>Quick Links</Button>
+            </Dropdown>
+          </Header>
           <Content style={{ margin: '0 16px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
             </Breadcrumb>
