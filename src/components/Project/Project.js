@@ -8,6 +8,8 @@ const Project = () => {
     
     return (
         <SiteLayout>
+            <h1>Project</h1>
+            <br />
             <Row gutter={16}>
                 <Col span={6}>
                     <Card
