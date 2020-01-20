@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Project from './components/Project';
 import Calendar from './components/Calendar';
+import ErrorPage from './components/ErrorPage';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Route path="/about" exact component={About} />
       <Route path="/project" exact component={Project} />
       <Route path="/calendar" exact component={Calendar} />
+      <Route path="/404" exact component={ErrorPage} />
     </Router>
   )
 }
