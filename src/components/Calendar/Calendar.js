@@ -1,12 +1,12 @@
 import React from 'react';
 import SiteLayout from '../SiteLayout';
 
-const Calender = () => {
+const Calendar = () => {
     return (
         <SiteLayout>
-            Calender
+            Calendar
         </SiteLayout>
     )
 }
 
-export default Calender;
+export default Calendar;
