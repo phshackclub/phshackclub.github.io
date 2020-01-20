@@ -42,7 +42,7 @@ class SiteLayout extends Component {
             <Menu.Item key="/project">
               <Link to="/project">
                 <Icon type="desktop" />
-                <span>Projects</span>
+                <span>Project</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="/calendar">
