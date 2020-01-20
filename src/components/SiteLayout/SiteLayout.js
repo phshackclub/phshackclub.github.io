@@ -14,13 +14,12 @@ class SiteLayout extends Component {
   };
 
   onCollapse = collapsed => {
-    console.log(collapsed);
     this.setState({ collapsed });
   };
 
   render() {
 
-    const { match, location, history } = this.props;
+    const { location } = this.props;
 
     return (
       <Layout style={{ minHeight: '100vh' }}>
