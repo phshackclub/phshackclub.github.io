@@ -4,7 +4,7 @@ import SiteLayout from '../SiteLayout';
 const Calendar = () => {
     return (
         <SiteLayout>
-            Calendar
+            <h1>Calendar</h1>
         </SiteLayout>
     )
 }
