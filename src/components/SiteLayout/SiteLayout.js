@@ -75,8 +75,10 @@ class SiteLayout extends Component {
         </Sider>
         <Layout>
           <Header style={{ background: '#fff', padding: 0 }}>
-            <Dropdown overlay={menu} placement="bottomRight">
-              <Button>Quick Links</Button>
+            <Dropdown overlay={menu}>
+              <a className="ant-dropdown-link" href="#">
+                <Icon type="link" /> Quick Links
+              </a>
             </Dropdown>
           </Header>
           <Content style={{ margin: '0 16px' }}>
