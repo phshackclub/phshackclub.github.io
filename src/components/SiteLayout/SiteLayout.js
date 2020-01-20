@@ -48,7 +48,7 @@ class SiteLayout extends Component {
             <Menu.Item key="/calendar">
               <Link to="/calendar">
                 <Icon type="calendar" />
-                <span>Calender</span>
+                <span>Calendar</span>
               </Link>
             </Menu.Item>
           </Menu>
