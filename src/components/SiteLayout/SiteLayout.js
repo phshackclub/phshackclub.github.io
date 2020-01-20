@@ -3,6 +3,7 @@ import { withRouter } from 'react-router';
 import { Link } from 'react-router-dom';
 import 'antd/dist/antd.css';
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
+import './SiteLayout.css';
 
 const { Header, Content, Footer, Sider } = Layout;
 
