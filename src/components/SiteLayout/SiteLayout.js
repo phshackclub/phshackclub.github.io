@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { Link } from 'react-router-dom';
 import 'antd/dist/antd.css';
-import { Layout, Menu, Breadcrumb, Icon, Dropdown, Button } from 'antd';
+import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 import './SiteLayout.css';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -76,9 +76,6 @@ class SiteLayout extends Component {
         <Layout>
           <Header style={{ background: '#fff', padding: 0 }}>
             <Dropdown overlay={menu} style={{ margin: '0 16px' }}>
-//               <a className="ant-dropdown-link" href="#">
-//                 <Icon type="link" /> Quick Links
-//               </a>
             </Dropdown>
           </Header>
           <Content style={{ margin: '0 16px' }}>
