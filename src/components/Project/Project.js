@@ -4,7 +4,7 @@ import SiteLayout from '../SiteLayout';
 const Project = () => {
     return (
         <SiteLayout>
-            About
+            Project
         </SiteLayout>
     )
 }
