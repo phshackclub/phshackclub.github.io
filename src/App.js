@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Project from './components/Project';
@@ -7,7 +7,7 @@ import Calendar from './components/Calendar';
 
 const App = () => {
   return (
-    <HashRouter>
+    <Router>
       <Route exact path="/">
         <Redirect to="/home" />
       </Route>
@@ -15,7 +15,7 @@ const App = () => {
       <Route path="/about" exact component={About} />
       <Route path="/project" exact component={Project} />
       <Route path="/calendar" exact component={Calendar} />
-    </HashRouter>
+    </Router>
   )
 }
 
