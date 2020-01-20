@@ -75,8 +75,6 @@ class SiteLayout extends Component {
         </Sider>
         <Layout>
           <Header style={{ background: '#fff', padding: 0 }}>
-            <Dropdown overlay={menu} style={{ margin: '0 16px' }}>
-            </Dropdown>
           </Header>
           <Content style={{ margin: '0 16px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
