@@ -6,6 +6,8 @@ import './Home.css';
 const Home = () => {
     return (
         <SiteLayout>
+            <h1>Home</h1>
+            <br />
             <Carousel autoplay>
                 <div>
                   <h3>1</h3>
