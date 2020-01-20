@@ -1,6 +1,6 @@
 import React from 'react';
 import SiteLayout from '../SiteLayout';
-import { Card } from 'antd';
+import { Card, Col, Row } from 'antd';
 
 const Project = () => {
     
@@ -8,48 +8,35 @@ const Project = () => {
     
     return (
         <SiteLayout>
-            <Card
-                hoverable
-                style={{ width: 240 }}
-                cover={<img alt="example" src="https://via.placeholder.com/150" />}
-              >
-                <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
-            </Card>
-            <Card
-                hoverable
-                style={{ width: 240 }}
-                cover={<img alt="example" src="https://via.placeholder.com/150" />}
-              >
-                <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
-            </Card>
-            <Card
-                hoverable
-                style={{ width: 240 }}
-                cover={<img alt="example" src="https://via.placeholder.com/150" />}
-              >
-                <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
-            </Card>
-            <Card
-                hoverable
-                style={{ width: 240 }}
-                cover={<img alt="example" src="https://via.placeholder.com/150" />}
-              >
-                <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
-            </Card>
-            <Card
-                hoverable
-                style={{ width: 240 }}
-                cover={<img alt="example" src="https://via.placeholder.com/150" />}
-              >
-                <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
-            </Card>
-            <Card
-                hoverable
-                style={{ width: 240 }}
-                cover={<img alt="example" src="https://via.placeholder.com/150" />}
-              >
-                <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
-            </Card>
+            <Row gutter={16}>
+                <Col span={8}>
+                    <Card
+                        hoverable
+                        style={{ width: 240 }}
+                        cover={<img alt="example" src="https://via.placeholder.com/150" />}
+                      >
+                        <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
+                    </Card>
+                </Col>
+                <Col span={8}>
+                    <Card
+                        hoverable
+                        style={{ width: 240 }}
+                        cover={<img alt="example" src="https://via.placeholder.com/150" />}
+                      >
+                        <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
+                    </Card>
+                </Col>
+                <Col span={8}>
+                    <Card
+                        hoverable
+                        style={{ width: 240 }}
+                        cover={<img alt="example" src="https://via.placeholder.com/150" />}
+                      >
+                        <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
+                    </Card>
+                </Col>
+            </Row>
         </SiteLayout>
     )
 }
