@@ -9,7 +9,10 @@ import ErrorPage from './components/ErrorPage';
 const App = () => {
   return (
     <Router>
-      <Route path="/" exact component={Home} />
+      <Route exact path="/">
+        <Redirect to="/home" />
+      </Route>
+      <Route path="/home" exact component={Home} />
       <Route path="/about" exact component={About} />
       <Route path="/project" exact component={Project} />
       <Route path="/calendar" exact component={Calendar} />
