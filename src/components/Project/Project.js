@@ -11,9 +11,7 @@ const Project = () => {
     
     return (
         <SiteLayout>
-            <h1>Project</h1>
-            <br />
-            <Card title="Card Title">
+            <Card title="Projects">
                 <Card.Grid style={gridStyle}>Content</Card.Grid>
                 <Card.Grid style={gridStyle}>Content</Card.Grid>
                 <Card.Grid style={gridStyle}>Content</Card.Grid>
