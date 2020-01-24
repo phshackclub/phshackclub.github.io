@@ -11,7 +11,7 @@ const Project = () => {
             <h1>Project</h1>
             <br />
             <Row gutter={16}>
-                <Col span={6}>
+                <Col span={7}>
                     <Card
                         hoverable
                         style={{ width: 240 }}
@@ -20,7 +20,7 @@ const Project = () => {
                         <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col span={7}>
                     <Card
                         hoverable
                         style={{ width: 240 }}
@@ -29,7 +29,7 @@ const Project = () => {
                         <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col span={7}>
                     <Card
                         hoverable
                         style={{ width: 240 }}
@@ -38,7 +38,7 @@ const Project = () => {
                         <Meta title="lorem ipsum" description="lorem ipsum dolor sit amet consetetur sadipscing elitr" />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col span={7}>
                     <Card
                         hoverable
                         style={{ width: 240 }}
