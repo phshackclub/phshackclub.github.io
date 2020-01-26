@@ -12,12 +12,12 @@ const Project = () => {
     return (
         <SiteLayout>
             <Card title="Projects">
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
+                <Card.Grid style={gridStyle}>lorem ipsum dolor sit amet consectetuer adipiscing elit</Card.Grid>
+                <Card.Grid style={gridStyle}>lorem ipsum dolor sit amet consectetuer adipiscing elit</Card.Grid>
+                <Card.Grid style={gridStyle}>lorem ipsum dolor sit amet consectetuer adipiscing elit</Card.Grid>
+                <Card.Grid style={gridStyle}>lorem ipsum dolor sit amet consectetuer adipiscing elit</Card.Grid>
+                <Card.Grid style={gridStyle}>lorem ipsum dolor sit amet consectetuer adipiscing elit</Card.Grid>
+                <Card.Grid style={gridStyle}>lorem ipsum dolor sit amet consectetuer adipiscing elit</Card.Grid>
             </Card>
         </SiteLayout>
     )
