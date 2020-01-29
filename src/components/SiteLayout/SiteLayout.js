@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import 'antd/dist/antd.css';
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 import './SiteLayout.css';
-import logo from '../../images/logo.png';
+import Logo from '../../images/logo.png';
 
 const { Header, Content, Footer, Sider } = Layout;
 
