@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import 'antd/dist/antd.css';
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 import './SiteLayout.css';
-import Logo from '../../images/logo.png';
+import logo from '../../images/logo.png';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -47,7 +47,7 @@ class SiteLayout extends Component {
       <Layout style={{ minHeight: '100vh' }}>
         <Sider collapsible collapsed={this.state.collapsed} onCollapse={this.onCollapse}>
           <div className="logo">
-            
+            <img src={logo} alt="Logo" height="30" width="30" />
           </div>
           <Menu theme="dark" selectedKeys={location.pathname} mode="inline">
             <Menu.Item key="/home">
