@@ -47,7 +47,7 @@ class SiteLayout extends Component {
       <Layout style={{ minHeight: '100vh' }}>
         <Sider collapsible collapsed={this.state.collapsed} onCollapse={this.onCollapse}>
           <div className="logo">
-            <Logo style={{ fontSize: '32px' }} />
+            
           </div>
           <Menu theme="dark" selectedKeys={location.pathname} mode="inline">
             <Menu.Item key="/home">
